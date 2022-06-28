@@ -10,6 +10,7 @@ namespace A14Building.System
         public Plane xzPlane;
 
         public GameObject BuildingBase;
+        [HideInInspector]
         public Building buildingSelected = null;
 
         protected override void Awake()
